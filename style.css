@@ -1,0 +1,86 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+img {
+  width: 250px;
+  height: 400px;
+  z-index: -1;
+  border-radius: 5px 0px 0 5px;
+}
+
+.detalsOfProduct {
+  position: absolute;
+  left: 255px;
+  margin: 15px 15px 0 15px;
+}
+
+.product {
+  height: 400px;
+  width: 500px;
+  margin: 90px auto 0;
+}
+
+.card {
+  border: 0;
+}
+
+.btn {
+  margin: 0px 0 0 0px;
+}
+
+/* FONT style */
+h1 {
+  font-size: 30px;
+  font-family: 'Fraunces', serif;
+  font-weight: bold;
+}
+
+p {
+  font-size: 17px;
+  font-family: font-family: 'Montserrat', sans-serif;
+  font-weight: 500px;
+  color: hsl(228, 12%, 48%)
+}
+
+.toptext {
+  font-size: 12px;
+}
+
+.price {
+  font-size: 30px;
+  font-family: 'Fraunces', serif;
+  font-weight: 500px;
+  color: #006400;
+}
+
+.oldprice {
+  font-size: 17px;
+  font-family: font-family: 'Montserrat', sans-serif;
+  color: hsl(228, 12%, 48%)
+}
+
+/* screen size 357px */
+@media (max-width:357px) {
+  .product {
+    height: 600px;
+    width: 250px;
+    margin: 20px 15px 5px 15px;
+  }
+
+  img {
+    width: 250px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 5px 5px 0 0px;
+  }
+
+  #imgc {
+    content: url(images/image-product-mobile.jpg);
+  }
+
+  .detalsOfProduct {
+    position: static;
+    margin: 15px 15px 0 15px;
+  }
+}
